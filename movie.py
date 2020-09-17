@@ -67,6 +67,7 @@ for movie in movie_datas:
             review = review.select_one(f'.score_reple > p > span#_filtered_ment_{count} > span > a')['data-src']
 
 
-        print("평점 : ", score, "\n리뷰 : ", review, "\n")
+        print("평점! : ", score, "\n리뷰 : ", review, "\n")
 
         count += 1
+
